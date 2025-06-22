@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promise Notifications</title>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast/dist/css/iziToast.min.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/src/css/styles.css">
+
+</head>
+<body>
+  <form class="form">
+    <label>
+      Delay (ms):
+      <input type="number" name="delay" required min="0" value="1000">
+    </label>
+    <label>
+      State:
+      <select name="state" required>
+        <option value="fulfilled">Fulfilled</option>
+        <option value="rejected">Rejected</option>
+      </select>
+    </label>
+    <button class="but" type="submit">Create Promise</button>
+  </form>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js"></script>
+  <script src="./2-snackbar.js" type="module"></script>
+ 
+</body>
+</html>
